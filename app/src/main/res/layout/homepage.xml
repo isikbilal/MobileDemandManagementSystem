@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.borcofix.mobiltalepyonetim.Homepage"
+    android:background="#01a1ac">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lütfen aşağıdan seçiminizi yapınız !!!"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+
+                />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnCreate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OLUŞTUR"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="234dp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/btnList"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="LİSTELE"
+            android:layout_gravity="center"
+            android:layout_marginTop="55dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="322dp" />
+
+        <Button
+            android:id="@+id/btnState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DURUM"
+            android:layout_gravity="center"
+            android:layout_marginTop="55dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="405dp" />
+    </LinearLayout>
+</RelativeLayout>

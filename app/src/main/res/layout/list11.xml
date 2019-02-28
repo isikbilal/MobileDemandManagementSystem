@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lnL11Main"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/lnL11Main1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        >
+
+        <LinearLayout
+            android:id="@+id/lnL11Main11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <TextView
+                android:id="@+id/tvL11RecordId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#9C27B0"
+                android:gravity="center_vertical|fill_horizontal"
+                android:paddingLeft="8dp"
+                android:singleLine="true"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/tvL11sRecordType"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#2196F3"
+                android:gravity="center_vertical|fill_horizontal"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:id="@+id/tvL11RecordTopic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#3F51B5"
+                android:gravity="center_vertical|fill_horizontal"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/tvL11RecordExplanation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00BCD4"
+                android:gravity="center_vertical|fill_horizontal"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/lnL11Main12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+
+            <TextView
+                android:id="@+id/tvL11ImageTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#F44336"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                android:textColor="#000000" />
+
+
+            <TextView
+                android:id="@+id/tvL11RecordAddress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#009688"
+                android:gravity="center_vertical|fill_horizontal"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:id="@+id/tvL11sCities"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#E91E63"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:id="@+id/tvL11sDistrict"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#4CAF50"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="#000000"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnL11Main13"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/ivRecordPicture"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_launcher"
+                android:scaleType="fitXY"
+
+                />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

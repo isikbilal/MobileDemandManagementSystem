@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">mobiltalepyonetim</string>
+    <string name="title_activity_create">Kayıt Formu</string>
+    <string name="title_activity_list">Listele</string>
+    <string name="title_activity_state">Durum</string>
+    <string name="title_activity_homepage">Anasayfa</string>
+</resources>
